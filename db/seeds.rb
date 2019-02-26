@@ -1,4 +1,4 @@
-roles = ['teacher']
+roles = ['patient']
 10.times do
   doctor = Doctor.create(
     first_name: Faker::Name.first_name,
